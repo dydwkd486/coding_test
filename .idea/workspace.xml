@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="266ea743-de4d-4819-860b-5a759182739b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/baekjoon/baekjoon2164.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/baekjoon10250.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/baekjoon10814.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/baekjoon10828.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/baekjoon10845.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/baekjoon10866.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/baekjoon11050.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/baekjoon11650.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/baekjoon11866.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/baekjoon2609.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/baekjoon2798.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/baekjoon4153.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/baekjoon9012.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/beakjoon10815.py" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/baekjoon10815.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/beakjoon10952.py" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/baekjoon10952.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/jaekjoon2753.py" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/baekjoon2753.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +51,8 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.baekjoon2164">
-    <configuration name="baekjoon2164" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.baekjoon11866">
+    <configuration name="baekjoon10845" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="coding_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -51,7 +65,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/baekjoon2164.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/baekjoon10845.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -60,7 +74,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="softeer390" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="baekjoon10866" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="coding_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -68,12 +82,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softeer/징검다리" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softeer/징검다리/softeer390.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\cho\Documents\GitHub\coding_test\baekjoon\baekjoon10866.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -82,7 +96,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="softeer392" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="baekjoon11050" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="coding_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,12 +104,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softeer/강의실 배정" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softeer/강의실 배정/softeer392.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\cho\Documents\GitHub\coding_test\baekjoon\baekjoon11050.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -104,7 +118,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="softeer393" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="baekjoon11650" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="coding_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,12 +126,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softeer/징검다리2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softeer/징검다리2/softeer393.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/baekjoon11650.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +140,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="softeer394" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="baekjoon11866" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="coding_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,12 +148,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softeer/우물안개구리" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softeer/우물안개구리/softeer394.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/baekjoon11866.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.baekjoon2164" />
-        <item itemvalue="Python.softeer393" />
-        <item itemvalue="Python.softeer390" />
-        <item itemvalue="Python.softeer394" />
-        <item itemvalue="Python.softeer392" />
+        <item itemvalue="Python.baekjoon11866" />
+        <item itemvalue="Python.baekjoon11650" />
+        <item itemvalue="Python.baekjoon11050" />
+        <item itemvalue="Python.baekjoon10866" />
+        <item itemvalue="Python.baekjoon10845" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +180,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620301500744</updated>
-      <workItem from="1622808867011" duration="1571000" />
+      <workItem from="1622808867011" duration="1660000" />
+      <workItem from="1622880658415" duration="11626000" />
     </task>
     <servers />
   </component>
@@ -175,5 +190,17 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/coding_test$baekjoon2164.coverage" NAME="baekjoon2164 Coverage Results" MODIFIED="1622810363596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/baekjoon" />
+    <SUITE FILE_PATH="coverage/coding_test$baekjoon10845.coverage" NAME="baekjoon10845 Coverage Results" MODIFIED="1622899731785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/baekjoon" />
+    <SUITE FILE_PATH="coverage/coding_test$baekjoon2798.coverage" NAME="baekjoon2798 Coverage Results" MODIFIED="1622884277603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/baekjoon" />
+    <SUITE FILE_PATH="coverage/coding_test$baekjoon10814.coverage" NAME="baekjoon10814 Coverage Results" MODIFIED="1622888813288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/baekjoon" />
+    <SUITE FILE_PATH="coverage/coding_test$baekjoon11866.coverage" NAME="baekjoon11866 Coverage Results" MODIFIED="1622902814429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/baekjoon" />
+    <SUITE FILE_PATH="coverage/coding_test$beakjoon11050.coverage" NAME="beakjoon11050 Coverage Results" MODIFIED="1622900998535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/baekjoon" />
+    <SUITE FILE_PATH="coverage/coding_test$beakjoon10828.coverage" NAME="beakjoon10828 Coverage Results" MODIFIED="1622899458059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/baekjoon" />
+    <SUITE FILE_PATH="coverage/coding_test$baekjoon11650.coverage" NAME="baekjoon11650 Coverage Results" MODIFIED="1622901707119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/baekjoon" />
+    <SUITE FILE_PATH="coverage/coding_test$baekjoon4153.coverage" NAME="baekjoon4153 Coverage Results" MODIFIED="1622884712960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/baekjoon" />
+    <SUITE FILE_PATH="coverage/coding_test$baekjoon2609.coverage" NAME="baekjoon2609 Coverage Results" MODIFIED="1622881042990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/baekjoon" />
+    <SUITE FILE_PATH="coverage/coding_test$baekjoon10250.coverage" NAME="baekjoon10250 Coverage Results" MODIFIED="1622887949292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/baekjoon" />
+    <SUITE FILE_PATH="coverage/coding_test$baekjoon9012.coverage" NAME="baekjoon9012 Coverage Results" MODIFIED="1622885323702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/baekjoon" />
+    <SUITE FILE_PATH="coverage/coding_test$beakjoon10866.coverage" NAME="beakjoon10866 Coverage Results" MODIFIED="1622899975038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/baekjoon" />
   </component>
 </project>
