@@ -11,7 +11,7 @@ for i in range(n):
             cnt += 1
             while j < m and li[i][j] == '-':
                 j += 1
-for j in range(m):
+for j in range(m): 
     i = 0
     while i < n:
         if li[i][j] == '-':
