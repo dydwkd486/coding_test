@@ -2,8 +2,8 @@ import sys
 from collections import deque
 input= sys.stdin.readline
 
-xd=[-2,-2,-1,-1,1,1,2,2]
-yd=[1,-1,2,-2,2,-2,1,-1]
+dx=[-2,-2,-1,-1,1,1,2,2]
+dy=[1,-1,2,-2,2,-2,1,-1]
 
 def BFS(start,end):
     queue=deque()
@@ -15,8 +15,8 @@ def BFS(start,end):
         if check[temp[0]][temp[1]]==False:
             check[temp[0]][temp[1]]=True
             for i in range(8):
-                temp_x=temp[0]+xd[i]
-                temp_y=temp[1]+yd[i]
+                temp_x=temp[0]+dx[i]
+                temp_y=temp[1]+dy[i]
                 if temp_x>=0 and temp_x<L and temp_y>=0 and temp_y<L:
                     chess_list[temp_x][temp_y]=chess_list[temp[0]][temp[1]]+1
                     queue.append([temp_x,temp_y])
