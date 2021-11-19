@@ -18,4 +18,7 @@ for i in range(n):
         if graph[i][j]==2:
             virus.append([i,j])
 
+
+# 벽세우기
+for i in range()
 print(virus)
