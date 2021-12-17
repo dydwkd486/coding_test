@@ -5,6 +5,7 @@ for i in range(N):
     arr=list(input().split())
     ant.append(arr[1:])
  
+
 ant.sort()
 for i in range(N):
     if i==0:#첫배열
