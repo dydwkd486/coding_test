@@ -1,3 +1,6 @@
+import sys
+
+input = sys.stdin.readline
 n, c = map(int, input().split())
 
 array = []
@@ -5,7 +8,6 @@ for i in range(n):
     array.append(int(input()))
 
 array.sort()
-
 
 def binary_search(array, start, end):
     while start <= end:
@@ -17,7 +19,6 @@ def binary_search(array, start, end):
             if array[i] >= current + mid:
                 count += 1
                 current = array[i]
-        print(count)
         if count >= c:
             global answer
             start = mid + 1
