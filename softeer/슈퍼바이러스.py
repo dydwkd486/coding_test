@@ -13,6 +13,6 @@ def recursive_power(c,n):
         return (y*y)%1000000007
     else:
         return (y*y*c)%1000000007
-        
+
 a= recursive_power(p,10*n)
 print((k%1000000007)*(a)%1000000007)
