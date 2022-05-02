@@ -23,10 +23,7 @@ def rotation_r(gear,rotation):
             else:
                 v= n_list[gear+1].pop(-1)
                 n_list[gear+1].insert(0,v)
-                
-            
-
-
+                         
 input = sys.stdin.readline
 
 for i in range(4):
@@ -47,9 +44,6 @@ for _ in range(n):
     else:
         v= n_list[gear].pop(-1)
         n_list[gear].insert(0,v)
-# print(n_list)
+
 result=n_list[0][0]+n_list[1][0]*2+n_list[2][0]*4+n_list[3][0]*8
 print(result)
-# 11001110 -> 10011101
-# 2 -2
-    
