@@ -1,0 +1,12 @@
+a =[5,3,2,4,1]
+
+for i in range(len(a)):
+    temp_idx=i
+    for j in range(i+1,len(a)):
+        if a[temp_idx]>a[j]:
+            temp_idx = j
+    temp = a[temp_idx]
+    a[temp_idx] = a[i]
+    a[i] = temp
+
+print(a)
