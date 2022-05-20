@@ -1,0 +1,34 @@
+import sys
+from collections import deque
+
+nx=[1,-1,0,0]
+ny=[0,0,1,-1]
+
+h,w = map(int,input().split())
+graph=[]
+for _ in range(h):
+    temp= list(map(int,input().split()))
+    graph.append(temp)
+
+
+q=int(input())
+
+for _ in range(q):
+    i,j,c = map(int,input().split())
+    if graph[i-1][j-1] != c:
+        queue = deque()
+        queue.append([i-1,j-1])
+        q_c = graph[i-1][j-1]
+        graph[i-1][j-1]=c
+        while queue:
+            vx,vy = queue.popleft()
+            for k in range(4):
+                dx=nx[k]+vx
+                dy=ny[k]+vy
+                if -1<dx<h and -1<dy<w:
+                    if graph[dx][dy]==q_c:
+                        graph[dx][dy]=c
+                        queue.append([dx,dy])
+for i in graph:
+    print(*i)
+
