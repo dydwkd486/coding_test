@@ -21,6 +21,7 @@ public class Main {
 			}
 		}
 		// 입력 완료
+		
 		dfs(0);
 		System.out.println(result);
 	}
@@ -36,168 +37,109 @@ public class Main {
 		int[][] temp = new int[n][n];
 		temp= deepCopy(temp,graph);
 		
-		left(graph);
+		left();
 		dfs(cnt+1);
 		graph= deepCopy(graph,temp);
 		
-		right(graph);
+		right();
 		dfs(cnt+1);
 		graph= deepCopy(graph,temp);
 		
-		top(graph);
+		top();
 		dfs(cnt+1);
 		graph= deepCopy(graph,temp);
 		
-		down(graph);
+		down();
 		dfs(cnt+1);
 		graph= deepCopy(graph,temp);
 
-//		print(left(temp));
-//		print(right(temp));
+
 	}
 	
-	static int[][] left(int[][] temp) {
+	static void left() {
 
 		for (int i = 0; i < n; i++) {
 			int curPoint=0;
-			int j=0;
-			int tempCount = temp[i][j];
-			while(true) {
-				j++;
-				if(j>n-1) break;
-				if(temp[i][j] ==0) continue;
-				if(tempCount==0) {
-					tempCount=temp[i][j];
-					continue;
-				}
-				if(temp[i][j]==tempCount) {
-					temp[i][curPoint++]= tempCount*2;
-					temp[i][j] = 0;
+			int tempCount = 0;
+			for (int j = 0; j < n; j++) {
+				if(graph[i][j] ==0) continue;
+				if(graph[i][j]==tempCount) {
+					graph[i][curPoint-1]= tempCount*2;
 					tempCount = 0;
+					graph[i][j] = 0;
 				}
-				else if(temp[i][j]!=tempCount){
-					temp[i][curPoint++]= tempCount;
-					tempCount = temp[i][j];
-				}
-			}
-			if(tempCount!=0) {
-				temp[i][curPoint++]= tempCount;
-			}
-			while(curPoint<n) {
-				temp[i][curPoint++] = 0;
+				else{
+					tempCount = graph[i][j];
+					graph[i][j] = 0;
+					graph[i][curPoint++]= tempCount;
+				}	
 			}
 			
 		}
-//		print(temp);
-		return temp;
 		
 	}
 	
-	static int[][] right(int[][] temp) {
+	static void right() {
 		
 		for (int i = 0; i < n; i++) {
 			int curPoint=n-1;
-			int j=n-1;
-			int tempCount = temp[i][j];
-			while(true) {
-				j--;
-				if(j<0) break;
-				if(temp[i][j] ==0) continue;
-				if(tempCount==0) {
-					tempCount=temp[i][j];
-					continue;
-				}
-				if(temp[i][j]==tempCount) {
-					temp[i][curPoint--]= tempCount*2;
-					temp[i][j] = 0;
+			int tempCount = 0;
+			for (int j = n-1; j > -1; j--) {
+				if(graph[i][j] ==0) continue;
+				if(graph[i][j]==tempCount) {
+					graph[i][curPoint+1]= tempCount*2;
+					graph[i][j] = 0;
 					tempCount = 0;
 				}
-				else if(temp[i][j]!=tempCount){
-					temp[i][curPoint--]= tempCount;
-					tempCount = temp[i][j];
+				else {
+					tempCount = graph[i][j];
+					graph[i][j] = 0;
+					graph[i][curPoint--]= tempCount;
 				}
 			}
-			if(tempCount!=0) {
-				temp[i][curPoint--]= tempCount;
-			}
-			while(curPoint>-1) {
-				temp[i][curPoint--] = 0;
-			}
-			
 		}
-		return temp;
-		
 	}
 	
-	static int[][] down(int[][] temp) {
+	static void down() {
 		
 		for (int j = 0; j < n; j++) {
 			int curPoint=n-1;
-			int i=n-1;
-			int tempCount = temp[i][j];
-			while(true) {
-				i--;
-				if(i<0) break;
-				if(temp[i][j] ==0) continue;
-				if(tempCount==0) {
-					tempCount=temp[i][j];
-					continue;
-				}
-				if(temp[i][j]==tempCount) {
-					temp[curPoint--][j]= tempCount*2;
-					temp[i][j] = 0;
+			int tempCount =0;
+			for (int i = n-1; i > -1; i--) {
+				if(graph[i][j] ==0) continue;
+				if(graph[i][j]==tempCount) {
+					graph[curPoint+1][j]= tempCount*2;
+					graph[i][j] = 0;
 					tempCount = 0;
 				}
-				else if(temp[i][j]!=tempCount){
-					temp[curPoint--][j]= tempCount;
-					tempCount = temp[i][j];
+				else{
+					tempCount = graph[i][j];
+					graph[i][j] = 0;
+					graph[curPoint--][j]= tempCount;
 				}
 			}
-			if(tempCount!=0) {
-				temp[curPoint--][j]= tempCount;
-			}
-			while(curPoint>-1) {
-				temp[curPoint--][j] = 0;
-			}
-			
 		}
-		return temp;
-		
 	}
 	
-	static int[][] top(int[][] temp) {
+	static void top() {
 		
 		for (int j = 0; j < n; j++) {
 			int curPoint=0;
-			int i=0;
-			int tempCount = temp[i][j];
-			while(true) {
-				i++;
-				if(i>n-1) break;
-				if(temp[i][j] ==0) continue;
-				if(tempCount==0) {
-					tempCount=temp[i][j];
-					continue;
-				}
-				if(temp[i][j]==tempCount) {
-					temp[curPoint++][j]= tempCount*2;
-					temp[i][j] = 0;
+			int tempCount = 0;
+			for (int i = 0; i < n; i++) {
+				if(graph[i][j] ==0) continue;
+				if(graph[i][j]==tempCount) {
+					graph[curPoint-1][j]= tempCount*2;
+					graph[i][j] = 0;
 					tempCount = 0;
 				}
-				else if(temp[i][j]!=tempCount){
-					temp[curPoint++][j]= tempCount;
-					tempCount = temp[i][j];
+				else{
+					tempCount = graph[i][j];
+					graph[i][j] = 0;
+					graph[curPoint++][j]= tempCount;
 				}
 			}
-			if(tempCount!=0) {
-				temp[curPoint++][j]= tempCount;
-			}
-			while(curPoint<n) {
-				temp[curPoint++][j] = 0;
-			}
-			
 		}
-		return temp;
 		
 	}
 	
