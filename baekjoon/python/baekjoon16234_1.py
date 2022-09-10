@@ -7,7 +7,9 @@ input = sys.stdin.readline
 n,l,r = list(map(int,input().split()))
 graph = [list(map(int,input().split())) for _ in range(n)]
 result =0
-def bfs(visited,queue,visited_list):
+def bfs(sum,count,visited,queue):
+    # y,x = queue
+    visited_list = deque([queue[0]])
     while queue:
         y,x = queue.popleft()
         for i in range(4):
@@ -16,14 +18,16 @@ def bfs(visited,queue,visited_list):
             if -1<vy<n and -1<vx<n and visited[vy][vx]==False:
                 if l<=abs(graph[vy][vx]-graph[y][x])<=r:
                     visited[vy][vx]=True
-                    visited_list.append([vy,vx])
+                    sum += graph[vy][vx]
                     queue.append([vy,vx])
+                    visited_list.append([vy,vx])
+                    count+=1
     # print(sum)
     
     # 가능한 경우를 다 찾음
     # 이제 변경해야함.
-    if len(visited_list) > 1:
-        changed_value = sum([graph[y][x] for y, x in visited_list])//len(visited_list)
+    if count > 1:
+        changed_value = sum//count
         for y,x in visited_list:
                     graph[y][x] = changed_value
         return True
@@ -46,8 +50,7 @@ for _ in range(2000):
                 visited[i][j]=True
                 queue = deque()
                 queue.append([i,j])
-                visited_list = [[i,j]]
-                change_bool = bfs(visited,queue,visited_list)
+                change_bool = bfs(graph[i][j],1,visited,queue)
                 if change_bool:
                     total_bool =True
     if total_bool:
