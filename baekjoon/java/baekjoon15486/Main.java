@@ -8,12 +8,12 @@ import java.util.Arrays;
 
 public class Main {
 	static int n;
-	static long n_list[][];
+	static int n_list[][];
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		n = Integer.parseInt(br.readLine());
-		n_list = new long[15000000][2];
+		n_list = new int[n+1][2];
 		for (int i = 0; i < n; i++) {
 			String[] temp = br.readLine().split(" ");
 			n_list[i][0]= Integer.parseInt(temp[0]);
@@ -32,7 +32,7 @@ public class Main {
 //		System.out.println();
 		
 		for (int i = 1; i < n; i++) {
-			int time = (int) n_list[n-1-i][0];
+			int time = n_list[n-1-i][0];
 			if((n_list[n-1-i+time][1]+n_list[n-1-i][1])>n_list[n-1-i+1][1]) {
 				n_list[n-1-i][1] = n_list[n-1-i+time][1]+n_list[n-1-i][1];		
 			}
